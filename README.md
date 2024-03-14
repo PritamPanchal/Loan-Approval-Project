@@ -20,16 +20,19 @@ Loan_Status       : The final status of the loan application (e.g., Y for Yes, N
 
 ## Steps performed
 Load and Examine the Dataset
+
     Importing libraries
     Reading the dataset
     Examining the basic structure of the dataset
 
 Data Preprocessing
+
     Normalising the skewed data columns
     Handling missing values in the dataset
     Converting categorical variables into numerical format.
     
 Feature Scaling
+
     Standardizing the feature values using StandardScaler.
 
 Model Training and Evaluation using Random Forest Classifier
