@@ -20,26 +20,30 @@ We have to build a ML model to predict the loan eligibility/approval of the cust
 #### Loan_Status       : The final status of the loan application (e.g., Y for Yes, N for No).
 
 ## Steps performed
-Load and Examine the Dataset
+
+### Load and Examine the Dataset
 
     Importing libraries
     Reading the dataset
     Examining the basic structure of the dataset
 
-Data Preprocessing
+### Data Preprocessing
 
     Normalising the skewed data columns
     Handling missing values in the dataset
     Converting categorical variables into numerical format.
     
-Feature Scaling
+### Feature Scaling
 
     Standardizing the feature values using StandardScaler.
 
-Model Training and Evaluation using Random Forest Classifier
+### Model Training and Evaluation using Random Forest Classifier
+
     Initializing and training the Random Forest Classifier.
     Generating classification report on the training set.
     Analyzing accuracy
 
-Model Training and Evaluation using Naive Bayes Classifier
+### Model Training and Evaluation using Naive Bayes Classifier
+
+    Based on accuracy using Naive Bayes Classifier to predict values on test dataset
 
