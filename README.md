@@ -5,19 +5,19 @@ We have to build a ML model to predict the loan eligibility/approval of the cust
 
 ## Dataset Attributes
 
-#### Loan_ID           : A unique identification number assigned to each loan application.
-#### Gender            : The gender of the applicant (e.g., Male).
-#### Married           : Indicates whether the applicant is married (e.g., Yes or No).
-#### Dependents        : The number of dependents the applicant has (e.g., 0, 1).
-#### Education         : The educational qualification of the applicant (e.g., Graduate or Not Graduate).
-#### Self_Employed     : Indicates whether the applicant is self-employed (e.g., Yes or No).
+#### Loan_ID           : A unique identification number/ID assigned to each loan application.
+#### Gender            : Gender of the applicant.
+#### Married           : Whether the applicant is married or not.
+#### Dependents        : The number of dependents on the applicant.
+#### Education         : Educational qualification of applicant.
+#### Self_Employed     : Whether applicant is self-employed or not.
 #### ApplicantIncome   : The income of the applicant.
-#### CoapplicantIncome : The income of the co-applicant, if any.
-#### LoanAmount        : The amount of the loan applied for.
-#### Loan_Amount_Term  : The term or duration of the loan in months.
-#### Credit_History    : A binary variable indicating whether the applicant has a credit history (e.g., 1 for Yes, 0 for No).
-#### Property_Area     : The area where the property associated with the loan is located (e.g., Urban, Rural).
-#### Loan_Status       : The final status of the loan application (e.g., Y for Yes, N for No).
+#### CoapplicantIncome : The income of the co-applicant.
+#### LoanAmount        : Amount of the loan.
+#### Loan_Amount_Term  : Duration of the loan in months.
+#### Credit_History    : A binary variable indicating whether the applicant has a credit history (i.e., 1/0 for Yes/No).
+#### Property_Area     : The area where the property associated with the loan is located (i.e., Urban/Rural).
+#### Loan_Status       : The final status of the loan application (i.e., Yes/No).
 
 ## Steps performed
 
