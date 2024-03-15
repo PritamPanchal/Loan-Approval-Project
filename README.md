@@ -4,6 +4,7 @@ We have to build a ML model to predict the loan eligibility/approval of the cust
 
 
 ## Dataset Attributes
+
 Loan_ID           : A unique identification number assigned to each loan application.
 Gender            : The gender of the applicant (e.g., Male).
 Married           : Indicates whether the applicant is married (e.g., Yes or No).
